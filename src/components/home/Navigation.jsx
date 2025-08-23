@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { useCart } from '../../context/CartContext';
 
 const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { getCartItemCount } = useCart();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -28,9 +30,11 @@ const Navigation = () => {
                   <Link to="#" className="text-white hover:text-gold-light transition">
                       <i className="fas fa-user text-lg"></i>
                   </Link>
-                  <Link to="#" className="text-white hover:text-gold-light transition relative">
+                  <Link to="/cart" className="text-white hover:text-gold-light transition relative">
                       <i className="fas fa-shopping-bag text-lg"></i>
-                      <span className="absolute -top-2 -right-2 bg-gold-light text-black rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold">0</span>
+                      <span className="absolute -top-2 -right-2 bg-gold-light text-black rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold">
+                        {getCartItemCount()}
+                      </span>
                   </Link>
                   <button 
                     className="md:hidden text-white"

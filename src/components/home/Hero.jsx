@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import vid from '../../assets/eli.mp4'
 
 const Hero = () => {
@@ -13,8 +14,8 @@ const Hero = () => {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 font-playfair">Welcome to <span className="text-gold">J Luxe</span></h1>
             <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto font-montserrat font-light">Discover timeless elegance and exquisite craftsmanship in our luxury jewelry collection</p>
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center">
-                <a href="#collections" className="px-8 py-3 bg-gold text-black font-semibold rounded-sm hover:bg-gold-dark transition duration-300 transform hover:scale-105">Shop Collection</a>
-                <a href="#about" className="px-8 py-3 border border-gold text-gold font-semibold rounded-sm hover:bg-gold hover:bg-opacity-10 transition duration-300 transform hover:scale-105">Learn More</a>
+                <Link to="/collections" className="px-8 py-3 bg-gold text-black font-semibold rounded-sm hover:bg-gold-dark transition duration-300 transform hover:scale-105">Shop Collection</Link>
+                <Link to="/about" className="px-8 py-3 border border-gold text-gold font-semibold rounded-sm hover:bg-gold hover:bg-opacity-10 transition duration-300 transform hover:scale-105">Learn More</Link>
             </div>
         </div>
     </section>
