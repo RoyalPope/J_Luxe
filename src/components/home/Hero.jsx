@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
-import memeImage from '../../assets/meme.jpg'
 
 const Hero = () => {
   return (
     <section className="hero-section flex items-center justify-center relative">
         <div className="absolute inset-0">
             <img 
-                src={memeImage} 
+                src="/meme.webp" 
                 alt="J Luxe Hero Background" 
                 className="w-full h-full object-cover"
             />

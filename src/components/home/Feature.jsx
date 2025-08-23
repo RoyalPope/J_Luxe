@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useCart } from '../../context/CartContext';
 import ProductModal from './ProductModal';
-import p1 from '../../assets/product.jpg';
+
 
 const Feature = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -14,7 +14,7 @@ const Feature = () => {
       id: 1,
       name: "Royal Pendant",
       price: 1299,
-      image: p1,
+      image: "/product.webp",
       description: "A stunning royal pendant crafted with the finest materials. This piece features intricate detailing and premium craftsmanship that makes it perfect for special occasions.",
       sizes: ["16\"", "18\"", "20\"", "22\""],
       features: ["18K Gold Plated", "Genuine Gemstones", "Adjustable Chain", "Elegant Design"]
