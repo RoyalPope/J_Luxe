@@ -25,7 +25,7 @@ const Navigation = () => {
   return (
     <>
       <nav className="fixed w-full z-10 backdrop-blur-sm">
-        <div className="container mx-auto px-14 py-4 flex justify-between items-center">
+        <div className="container mx-auto px-4 md:px-8 lg:px-14 py-4 flex justify-between items-center">
           <div className="flex items-center">
             <h1 className="text-3xl font-bold text-gold font-playfair">J Luxe</h1>
           </div>
@@ -85,7 +85,7 @@ const Navigation = () => {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden bg-gray-900 bg-opacity-95 backdrop-blur-sm border-t border-gray-800">
-            <div className="container mx-auto px-14 py-4">
+            <div className="container mx-auto px-4 md:px-8 lg:px-14 py-4">
               <div className="flex flex-col space-y-4">
                 <Link to="/" className="nav-link font-montserrat text-white hover:text-gold-light transition py-2">Home</Link>
                 <Link to="/collections" className="nav-link font-montserrat text-white hover:text-gold-light transition py-2">Collections</Link>

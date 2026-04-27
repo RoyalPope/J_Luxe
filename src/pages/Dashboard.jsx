@@ -260,9 +260,9 @@ const Dashboard = () => {
 
   return (
     <div className="min-h-screen bg-black pt-20">
-      <div className="container mx-auto px-14 py-8">
+      <div className="container mx-auto px-4 md:px-8 lg:px-14 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 sm:gap-0">
           <div>
             <h1 className="text-4xl font-bold text-white font-playfair">Welcome back, {user.name}!</h1>
             <p className="text-gray-400 mt-2">Manage your account and view your orders</p>
@@ -285,7 +285,7 @@ const Dashboard = () => {
         </div>
 
         {/* Navigation Tabs */}
-        <div className="flex space-x-1 bg-gray-900 p-1 rounded-lg mb-8">
+        <div className="flex space-x-1 bg-gray-900 p-1 rounded-lg mb-8 overflow-x-auto whitespace-nowrap">
           {tabs.map((tab) => (
             <button
               key={tab.id}

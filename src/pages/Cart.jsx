@@ -16,7 +16,7 @@ const Cart = () => {
   if (items.length === 0) {
     return (
       <div className="min-h-screen bg-black pt-32">
-        <div className="container mx-auto px-14 py-20">
+        <div className="container mx-auto px-4 md:px-8 lg:px-14 py-20">
           <div className="text-center">
             <div className="mb-8">
               <i className="fas fa-shopping-cart text-8xl text-gray-700"></i>
@@ -37,7 +37,7 @@ const Cart = () => {
 
   return (
     <div className="min-h-screen bg-black pt-32">
-      <div className="container mx-auto px-14 py-20">
+      <div className="container mx-auto px-4 md:px-8 lg:px-14 py-20">
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-white mb-4 font-playfair">Shopping <span className="text-gold">Cart</span></h1>
           <p className="text-gray-400">Review your items and proceed to checkout</p>
