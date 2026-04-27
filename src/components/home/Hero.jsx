@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="hero-section flex items-center justify-center relative">
         <div className="absolute inset-0">
             <img 
-                src="/meme.webp" 
+                src="/hero_bg.png" 
                 alt="J Luxe Hero Background" 
                 className="w-full h-full object-cover"
             />

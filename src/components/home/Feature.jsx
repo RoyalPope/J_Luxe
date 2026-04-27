@@ -14,7 +14,7 @@ const Feature = () => {
       id: 1,
       name: "Royal Pendant",
       price: 1299,
-      image: "/product.webp",
+      image: "/product_royal_pendant.png",
       description: "A stunning royal pendant crafted with the finest materials. This piece features intricate detailing and premium craftsmanship that makes it perfect for special occasions.",
       sizes: ["16\"", "18\"", "20\"", "22\""],
       features: ["18K Gold Plated", "Genuine Gemstones", "Adjustable Chain", "Elegant Design"]
@@ -23,7 +23,7 @@ const Feature = () => {
       id: 2,
       name: "Elegance Bracelet",
       price: 899,
-      image: null,
+      image: "/product_elegance_bracelet.png",
       description: "A sophisticated bracelet that combines elegance with comfort. Perfect for everyday wear or special events.",
       sizes: ["6.5\"", "7\"", "7.5\"", "8\""],
       features: ["Sterling Silver", "Adjustable Fit", "Lightweight Design", "Timeless Style"]
@@ -32,7 +32,7 @@ const Feature = () => {
       id: 3,
       name: "Infinity Necklace",
       price: 1499,
-      image: null,
+      image: "/product_infinity_necklace.png",
       description: "The infinity symbol represents endless love and connection. This necklace is perfect for expressing eternal bonds.",
       sizes: ["16\"", "18\"", "20\""],
       features: ["White Gold", "Diamond Accents", "Symbolic Design", "Premium Quality"]
@@ -41,7 +41,7 @@ const Feature = () => {
       id: 4,
       name: "Celestial Bracelet",
       price: 1199,
-      image: null,
+      image: "/product_celestial_bracelet.png",
       description: "Inspired by the stars and celestial bodies, this bracelet features cosmic-inspired design elements.",
       sizes: ["7\"", "7.5\"", "8\""],
       features: ["Rose Gold", "Stellar Motifs", "Comfortable Fit", "Unique Design"]
@@ -50,7 +50,7 @@ const Feature = () => {
       id: 5,
       name: "Diamond Necklace",
       price: 2499,
-      image: null,
+      image: "/product_diamond_necklace.png",
       description: "A luxurious diamond necklace that sparkles with every movement. The perfect statement piece for any occasion.",
       sizes: ["16\"", "18\"", "20\""],
       features: ["Natural Diamonds", "18K White Gold", "Brilliant Cut", "Certified Quality"]
@@ -59,7 +59,7 @@ const Feature = () => {
       id: 6,
       name: "Royal Bracelet",
       price: 1799,
-      image: null,
+      image: "/product_celestial_bracelet.png",
       description: "Fit for royalty, this bracelet features premium materials and exquisite craftsmanship that sets it apart.",
       sizes: ["7\"", "7.5\"", "8\""],
       features: ["Platinum", "Royal Design", "Premium Finish", "Exclusive Style"]
